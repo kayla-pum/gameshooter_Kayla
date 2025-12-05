@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background: #111;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* AREA GAME */
+#game {
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  background: #87CEEB;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid white;
+}
+
+/* PLAYER */
+#player {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 175px;
+
+  background-image: url('monyet_bestie.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* BULLET */
+.bullet {
+  width: 20px;
+  height: 30px;
+  position: absolute;
+
+  background-image: url('pisang.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* MUSUH */
+.enemy {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+
+  background-image: url('monyetEnemy.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* BOMB */
+.bomb {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+
+  background-image: url('bomb.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* SKOR */
+#score {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* GAME OVER */
+#gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  text-shadow: 3px 3px 10px black;
+}
+
+.hidden {
+  display: none;
+}
